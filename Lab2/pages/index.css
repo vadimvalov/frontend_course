@@ -1,0 +1,112 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+header div img {
+  height: 25px;
+  width: 25px;
+  margin: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li a {
+  list-style: none;
+  margin: 0 10px;
+  color: black;
+  text-decoration: none;
+}
+nav ul li a small {
+  font-size: 10px;
+}
+
+header img {
+  margin-right: 20px;
+  height: 100px;
+  width: 160px;
+  margin-left: 20px;
+}
+
+.mainContent {
+  display: flex;
+  overflow-x: hidden;
+}
+
+.mainContent figure {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+
+.mainContent img {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 17%;
+  height: auto;
+  border: none;
+}
+
+footer {
+  display: flex;
+  padding-left: 60px;
+  padding-right: 100px;
+}
+footer a {
+  color: gray;
+  text-decoration: none;
+}
+footer p {
+  color: gray;
+}
+
+.column {
+  margin: 10px;
+  padding: 10px;
+  width: 25%;
+}
+/* Скрываем выпадающее меню по умолчанию */
+.dropdown-menu {
+  display: none;
+}
+
+/* Отображаем меню при наведении на элемент "Pages" */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Стилизация выпадающего меню */
+.dropdown-menu {
+  position: absolute;
+  border: 1px solid #ccc;
+  padding: 10px;
+  list-style: none;
+  margin-top: 5px;
+}
+
+.dropdown-menu li {
+  margin: 5px 0;
+}
+
+.dropdown-menu a {
+  text-decoration: none;
+  color: #333;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.column ul li {
+  margin: 5px 0;
+}
