@@ -13,7 +13,7 @@ header div img {
 
 nav ul {
   list-style: none;
-  margin: 0;
+  margin: 0px;
   display: flex;
   justify-content: center;
 }
